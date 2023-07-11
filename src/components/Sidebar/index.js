@@ -1,7 +1,7 @@
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
-import LogoS from '../../assets/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
+import LogoS from '../../assets/images/bachir-b-logo.png'
+import LogoSubtitle from '../../assets/images/sidebar-bachir.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faUser, faHome } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -50,24 +50,6 @@ const Sidebar = () => (
           href="https://github.com/BitCraft01"
         >
           <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
-        </a>
-      </li>
-      <li>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.linkedin.com/in/bachirdicko/"
-        >
-          <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
-        </a>
-      </li>
-      <li>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.linkedin.com/in/bachirdicko/"
-        >
-          <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
         </a>
       </li>
     </ul>
