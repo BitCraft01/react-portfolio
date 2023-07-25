@@ -91,7 +91,7 @@ const Contact = () => {
         <div className="info-map">
           Bachir Dicko
           <br />
-          Union, New Jersey
+          Irvington, New Jersey
           <br />
           United States, <br />
           <span>Bachirmdicko@gmail.com</span>
